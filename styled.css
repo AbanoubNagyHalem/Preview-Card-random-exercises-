@@ -1,0 +1,59 @@
+/* font-family: "Fraunces", serif;
+font-family: "Montserrat", sans-serif; */
+
+* {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+.top1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+.top2 {
+  font-family: "Fraunces", serif;
+}
+.top3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.left-side img {
+  /* border: 2px solid black; */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.right-side {
+  position: relative;
+  background-color: white !important;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 450px;
+  width: 300px;
+}
+
+.price1 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  background-color: white;
+}
+
+.price2 {
+  background-color: white;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%) !important;
+  color: white !important;
+  width: 90%;
+}
+
+button:hover {
+  background-color: hsl(157, 36%, 25%) !important;
+}
+
+i {
+  background-color: transparent;
+}
+span {
+  background-color: transparent;
+}
